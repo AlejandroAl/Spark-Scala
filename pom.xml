@@ -18,7 +18,7 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <encoding>UTF-8</encoding>
-    <scala.version>2.12.6</scala.version>
+    <scala.version>2.12.0</scala.version>
     <scala.compat.version>2.12</scala.compat.version>
     <spec2.version>4.2.0</spec2.version>
   </properties>
@@ -32,33 +32,36 @@
 
     <dependency>
       <groupId>org.apache.spark</groupId>
-      <artifactId>spark-streaming_2.11</artifactId>
-      <version>2.4.0</version>
+      <artifactId>spark-streaming_2.12</artifactId>
+      <version>2.4.4</version>
+      <scope>provided</scope>
     </dependency>
+
 
     <dependency>
       <groupId>org.apache.spark</groupId>
-      <artifactId>spark-sql_2.11</artifactId>
-      <version>2.4.0</version>
+      <artifactId>spark-sql_2.12</artifactId>
+      <version>2.4.4</version>
     </dependency>
+
 
     <dependency>
       <groupId>org.apache.spark</groupId>
-      <artifactId>spark-core_2.11</artifactId>
-      <version>2.4.0</version>
+      <artifactId>spark-core_2.12</artifactId>
+      <version>2.4.4</version>
     </dependency>
 
     <dependency>
       <groupId>org.mongodb.spark</groupId>
-      <artifactId>mongo-spark-connector_2.11</artifactId>
-      <version>2.4.0</version>
+      <artifactId>mongo-spark-connector_2.12</artifactId>
+      <version>2.4.1</version>
     </dependency>
 
 
     <dependency>
       <groupId>org.apache.spark</groupId>
-      <artifactId>spark-streaming-kafka-0-10_2.11</artifactId>
-      <version>2.4.0</version>
+      <artifactId>spark-streaming-kafka-0-10_2.12</artifactId>
+      <version>2.4.3</version>
     </dependency>
 
     <dependency>
@@ -67,11 +70,11 @@
       <version>42.2.5</version>
     </dependency>
 
-    <dependency>
+    <!--<dependency>
       <groupId>com.databricks</groupId>
       <artifactId>spark-csv_2.11</artifactId>
       <version>1.5.0</version>
-    </dependency>
+    </dependency>-->
 
     <!-- Test -->
     <dependency>
